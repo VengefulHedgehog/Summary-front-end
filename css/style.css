@@ -245,12 +245,15 @@ body{
     min-width: 100px;
     background: #000;
     border-radius: 50%;
-}
-.project__card__button a{
     font-weight: 400;
     font-size: 15px;
     line-height: 20px;
-    color: #FFF;
+}
+.project__card__button span{
+    position: absolute;
+    top: calc(50% - 10px);
+    left: calc(50% - 35px);
+    color: #fff;
 }
 
 /*-----------------------------about----------------------------*/
